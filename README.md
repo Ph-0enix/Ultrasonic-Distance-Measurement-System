@@ -41,6 +41,6 @@ The project is built on the **time-of-flight principle**, implementing **signal 
 ## 🔧 Working Principle
 
 > The **HC-SR04** sensor sends an ultrasonic pulse and waits for the echo.  
-> The **Arduino measures the echo return time** and computes the distance using the speed of sound.  
+> The **Arduino measures the echo return time** and computes the distance using the speed of sound. And calculated the formula of Ping Travel Distance "pingTravelDistance=(pingTravelTime*1235.*39370.)/(36.*100000000) " 
 > Multiple readings are averaged to reduce random error, and results are displayed on the **LCD** in inches.
 
